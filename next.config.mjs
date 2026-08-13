@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  // Export static HTML to `out` for GitHub Pages deployment
+  output: "export",
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'images.unsplash.com' },
