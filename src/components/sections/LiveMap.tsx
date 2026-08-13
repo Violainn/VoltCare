@@ -580,6 +580,7 @@ export function LiveMap() {
                       index={idx}
                       eta={tech.eta}
                       selected={selectedPin === tech.id}
+                      showFastest={showFastest}
                       onClick={() => {
                         setSelectedPin(tech.id);
                         setViewMode("map");
@@ -878,12 +879,14 @@ function ElectricianInfoCard({
   index,
   eta,
   selected,
+  showFastest,
   onClick,
 }: {
   tech: (typeof electricians)[0];
   index: number;
   eta: number;
   selected: boolean;
+  showFastest: boolean;
   onClick: () => void;
 }) {
   const etaPct = Math.min(100, ((35 - eta) / 35) * 100);

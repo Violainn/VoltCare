@@ -10,7 +10,7 @@ import {
   X,
   Mic,
   ArrowUp,
-  Wheelchair,
+  User,
   Contrast,
   Type,
   Keyboard,
@@ -299,7 +299,7 @@ export function FloatingWidgets() {
               )}
               aria-label="Accessibility settings"
             >
-              <Wheelchair className="w-5 h-5" />
+              <User className="w-5 h-5" />
             </motion.button>
           </TooltipTrigger>
           <TooltipContent side="right" className="text-xs">
@@ -335,7 +335,7 @@ export function FloatingWidgets() {
           <div className="bg-gradient-to-br from-primary to-cyan-500 p-6 text-white">
             <DialogHeader>
               <DialogTitle className="flex items-center gap-2.5 text-xl text-white">
-                <Wheelchair className="w-6 h-6" />
+                <User className="w-6 h-6" />
                 Accessibility Settings
               </DialogTitle>
               <DialogDescription className="text-white/80 text-sm">

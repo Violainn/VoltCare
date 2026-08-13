@@ -326,7 +326,7 @@ export function Contact() {
                   </div>
                   <div className="space-y-3">
                     {phoneNumbers.map((pn) => {
-                      const PnIcon: LucideIcon = pn.icon;
+                      const PnIcon = pn.icon as LucideIcon;
                       return (
                         <a
                           key={pn.label}
