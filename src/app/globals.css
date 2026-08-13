@@ -147,7 +147,7 @@
   .floating-label input,
   .floating-label textarea,
   .floating-label select {
-    @apply peer w-full px-4 pt-6 pb-2 rounded-xl border border-input bg-background/50 outline-none transition-all duration-300 focus:border-primary focus:ring-4 focus:ring-primary/10;
+    @apply w-full px-4 pt-6 pb-2 rounded-xl border border-input bg-background/50 outline-none transition-all duration-300 focus:border-primary focus:ring-4 focus:ring-primary/10;
   }
 
   .floating-label label {
